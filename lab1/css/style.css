@@ -1,0 +1,32 @@
+.header, .sidebar, .content, .footer {
+    font-family: 'Concert One', cursive;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 1.5em;
+    color: rgb(39, 94, 69);
+    background-color: #ffffff;
+    padding: 10px;
+    border: solid 2px #000;
+    border-color: rgba(0, 6, 99, 0.11);
+   }
+
+.layout {
+    margin: 15px 0;
+    overflow: hidden;
+    min-width: 800px;
+    max-width: 1200px;
+   }
+
+.sidebar {
+    width: 100px;
+    float: right;
+   }
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+   }
+
+.content {
+    margin-right: 135px;
+}
