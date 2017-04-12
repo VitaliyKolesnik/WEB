@@ -14,12 +14,15 @@
     margin: 15px 0;
     overflow: hidden;
     min-width: 800px;
-    max-width: 1200px;
+    max-width: 100%;
    }
 
+.container{
+	float: right;
+	width: 27%;
+}
 .sidebar {
-    width: 100px;
-    float: right;
+    width: 30%;
    }
 
 .sidebar ul {
@@ -29,4 +32,5 @@
 
 .content {
     margin-right: 135px;
+	width: 70%;
 }
